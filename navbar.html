@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html style="width: fit-content;" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      background-color: #333;
+      padding: 1rem;
+    }
+    .navbar ul {
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar li {
+      margin: 0 1rem;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+    }
+    .navbar a:hover {
+      color: #ccc;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 1rem;
+      z-index: 1;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown-content a {
+      color: black;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    .dropdown-content a:hover {
+      color: #333;
+    }
+
+    </style>
+</head>
+<nav class="navbar">
+    <ul>
+        <li><a href="../articles/article_cmg.html">All-In-One Magic: Upgrading Your Renting Game</a>
+        <li><a href="../linkedin_posts/joffrey.html">Joffrey LinkedIn</a></li>
+        <li><a href="../linkedin_posts/julien.html">Julien LinkedIn</a></li>
+        <li><a href="../linkedin_posts/checkmyguest.html">CheckMyGuest LinkedIn</a></li>
+    </ul>
+</nav>
+</html>
